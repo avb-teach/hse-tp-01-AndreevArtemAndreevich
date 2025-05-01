@@ -1,4 +1,4 @@
 #!/bin/bash
-cp "$1"/* "$2"
+find "$1" -type f -exec cp {} "$2" \;
 
 #проверка 
